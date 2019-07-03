@@ -16,5 +16,3 @@ Found: Animal Farm
 * Implement standard input loop that will ask the user for input. Use the `read_line` example outlined in the Rust documentation [std::io::stdin](https://doc.rust-lang.org/std/io/fn.stdin.html) and [std::io::Stdin](https://doc.rust-lang.org/std/io/struct.Stdin.html#method.read_line)
 
 **As a hint, try using a `while let` or `match` when using the `read_line` method. Rust uses enums very heavily, in particularly `Result` and `Option`, Result is represented by `Ok(item)` or `Err(error_message)` and Option is represented by `Some(item)` and `None`.
-
-
