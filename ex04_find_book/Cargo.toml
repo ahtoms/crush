@@ -1,0 +1,7 @@
+[package]
+name = "ex04_find_book"
+version = "0.1.0"
+authors = ["Ahtoms <me@ahtoms.xyz>"]
+edition = "2018"
+
+[dependencies]

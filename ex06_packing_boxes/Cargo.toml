@@ -1,0 +1,7 @@
+[package]
+name = "ex05_find_book_struct"
+version = "0.1.0"
+authors = ["Ahtoms <me@ahtoms.xyz>"]
+edition = "2018"
+
+[dependencies]
