@@ -26,7 +26,7 @@ fn main() {
     let mut line = String::new();
     while let Ok(bytes) = io::stdin().read_line(&mut line) {
         match find_book(&books, line.trim()) {
-            Some(b) => { println!("Found: {}", b); }
+            Some(b) => { println!("Found: {}", b); line.clear(); }
             None => { println!("Did not find book :(" ); }
         }
     }
